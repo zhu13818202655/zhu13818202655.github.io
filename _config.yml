@@ -72,8 +72,10 @@ tag_dir: tag/
 excerpt_separator: "\n\n\n\n"
 #
 #sitemap
+url: "https://zhu13818202655.github.io/" # the base hostname & protocol for your site
 plugins:
   - jekyll-sitemap
+
 
 # paginate
 plugins: [jekyll-paginate]
