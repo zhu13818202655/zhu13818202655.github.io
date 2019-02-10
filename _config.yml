@@ -41,9 +41,9 @@ gitalk:
 
 # statistic analysis 统计代码
 # 百度统计 id，将统计代码替换为自己的百度统计id，即
-# hm.src = "//hm.baidu.com/hm.js?527131ceb8f81e894cdc98a138a108c3";
+hm.src = "//hm.baidu.com/hm.js?527131ceb8f81e894cdc98a138a108c3";
 # xxxxx字符串
-# baidu_tongji_id: 按不出的time
+baidu_tongji_id: 527131ceb8f81e894cdc98a138a108c3
 google_analytics_id: UA-134193738-1 # google 分析追踪id
 ga_domain: auto
 
