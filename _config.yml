@@ -72,6 +72,7 @@ tag_dir: tag/
 excerpt_separator: "\n\n\n\n"
 
 #sitemap
+plugins: [jekyll-sitemap]
 sitemap:
   path: sitemap.xml
 
