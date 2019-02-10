@@ -1,15 +1,18 @@
 ---
 layout:     post
-title:      Git Beginner
-subtitle:   History Blogs @ 2015/10/1
-date:       2018-09-25
+title:      Ali Cloud Mysql
+subtitle:   History Blogs @ 2019/02/08
+date:       2019-09-25
 author:     Xin YAO
 catalog: true
 tags:
     - git
 ---
-
 <!-- MarkdownTOC -->
+
+
+
+
 # 在阿里云Windows服务器下安装MySQL5.7.25并配置远程访问
 网上有一些关于此方面的文章，但是自身去实践时，还是出现了不少问题。
 我先用本地的计算机远程访问阿里云服务器进行配置，先在官网上下载MySQL5.7，地址：https://dev.mysql.com/downloads/mysql/5.7.html#downloads，
