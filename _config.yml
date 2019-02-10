@@ -71,6 +71,10 @@ tag_dir: tag/
 # excerpt
 excerpt_separator: "\n\n\n\n"
 
+#sitemap
+sitemap:
+  path: sitemap.xml
+
 # paginate
 plugins: [jekyll-paginate]
 paginate: 6
