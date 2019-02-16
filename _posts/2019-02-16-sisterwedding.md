@@ -13,4 +13,11 @@ catalog:  Memory
 
 # 三姐婚礼
 ## 图片精选
-![我们一家](https://github.com/zhu13818202655/zhu13818202655.github.io/blob/master/img/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20190215201457.jpg)
+
+![我们一家](https://github.com/zhu13818202655/zhu13818202655.github.io/blob/master/img/photo1.jpg）
+
+![我们一家](https://github.com/zhu13818202655/zhu13818202655.github.io/blob/master/img/photo2.jpg）
+
+![我们一家](https://github.com/zhu13818202655/zhu13818202655.github.io/blob/master/img/photo3.jpg）
+
+![我们一家](https://github.com/zhu13818202655/zhu13818202655.github.io/blob/master/img/photo4.jpg）
