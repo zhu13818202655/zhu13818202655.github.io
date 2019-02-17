@@ -24,4 +24,4 @@ catalog:  Memory
 
 ##纪念视频
 
- 同学发红包：<iframe height=498 width=510 src="http://t.cn/EVXDZxf?m=4340782834386799&u=5426271571" frameborder=0 allowfullscreen></iframe>
+ 同学发红包：<iframe height=498 width=510 src="http://t.cn/EVXDZxf?m=4340782834386799&u=5426271571" frameborder=0></iframe>
