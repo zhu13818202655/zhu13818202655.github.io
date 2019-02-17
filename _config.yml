@@ -10,7 +10,6 @@ title: "邾的技术专栏"
 brief-intro: "System Research"
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://zhu13818202655.github.io/" # the base hostname & protocol for your site
-music: /music.html
 permalink: /:year/:month/:day/:title/
 
 # other links
@@ -67,7 +66,6 @@ kramdown:
 # url
 category_dir: category/
 tag_dir: tag/
-music: music
 # excerpt
 excerpt_separator: "\n\n\n\n"
 #
