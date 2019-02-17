@@ -24,8 +24,8 @@ catalog:  Memory
 
 ##纪念视频
 
+
 <video id="video" controls="" preload="none" poster="https://github.com/zhu13818202655/zhu13818202655.github.io/raw/master/img/photo4.jpg">
-      <source id="mp4" src="http://t.cn/EVXDZxf?m=4340782834386799&u=5426271571" type="video/mp4">
-      </video>
+<source id="mp4" src="http://t.cn/EVXDZxf?m=4340782834386799&u=5426271571" type="video/mp4"> </video>
 
  同学发红包：<iframe height=498 width=510 src="http://t.cn/EVXDZxf?m=4340782834386799&u=5426271571" frameborder=0></iframe>
