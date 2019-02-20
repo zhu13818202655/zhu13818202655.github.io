@@ -13,8 +13,11 @@ catalog:    Python Crawler
 
 # Beautifulsoup Study
 
-标签（空格分隔）：根据 Beautiful Soup 4.2.0 文档 学习:
-https://www.crummy.com/software/BeautifulSoup/bs4/doc.zh/#id4
+标签（空格分隔）：根据  [Beautiful Soup 4.2.0 文档][1]学习
+
+
+  [1]: https://www.crummy.com/software/BeautifulSoup/bs4/doc.zh/#id4 
+
 
 
 ---
