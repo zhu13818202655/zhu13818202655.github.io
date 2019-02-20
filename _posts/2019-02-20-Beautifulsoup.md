@@ -72,7 +72,7 @@ for child in head_tag.descendants:
 
 ## **.string**
  
- 1. 字符串常被包含在tag内.Beautiful Soup用 NavigableString 类来包装tag中的字符串
+字符串常被包含在tag内.Beautiful Soup用 NavigableString 类来包装tag中的字符串
 如果tag只有一个 NavigableString 类型子节点,那么这个tag可以使用 `.string` 得到子节点
 
 ```
@@ -80,7 +80,7 @@ title_tag.string
 # u'The Dormouse's story'
 ```
 
- 2. 如果一个tag仅有一个子节点,那么这个tag也可以使用 .string 方法,输出结果与当前唯一子节点的 `.string` 结果相同
+如果一个tag仅有一个子节点,那么这个tag也可以使用 .string 方法,输出结果与当前唯一子节点的 `.string` 结果相同
  
 ```
 head_tag.contents
@@ -88,12 +88,12 @@ head_tag.contents
 head_tag.string
 # u'The Dormouse's story'
 ```
- 3. 如果tag包含了多个子节点,tag就无法确定 .string 方法应该调用哪个子节点的内容, .string 的输出结果是 None,此时可以使用`.strings`来循环获取
+如果tag包含了多个子节点,tag就无法确定 .string 方法应该调用哪个子节点的内容, .string 的输出结果是 None,此时可以使用`.strings`来循环获取
 ```
 for string in soup.strings:
     print(repr(string))
 ```
- 4. 输出的字符串中可能包含了很多空格或空行,使用`.stripped_strings`可以去除多余空白内容.
+输出的字符串中可能包含了很多空格或空行,使用`.stripped_strings`可以去除多余空白内容.
 
 **`find_all`查找文档中所有匹配标签**
 
