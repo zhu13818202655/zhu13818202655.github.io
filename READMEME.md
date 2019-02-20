@@ -5,3 +5,5 @@
 4. 将Jekyll插件添加到GitHub Pages站点,https://help.github.com/articles/adding-jekyll-plugins-to-a-github-pages-site/
 5. Git Pages + Jekyll/Hexo搭建自己的博客(最全总结你想知道的都在这里了)
 ,https://blog.csdn.net/muzilanlan/article/details/81542917
+6.markdown插入图片：https://www.jianshu.com/p/c7618a53454f
+7.
