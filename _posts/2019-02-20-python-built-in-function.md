@@ -14,21 +14,21 @@ catalog:    Python
 # 内置函数
 1. **repr**
 
-    ##语法
-    
-    repr(object)
-    参数
-    object -- 对象。
-    返回一个对象的 string 格式。
-    
-    ##实例
-    
+##语法
+
+repr(object)
+参数
+object -- 对象。
+返回一个对象的 string 格式。
+
+##实例
+
+```
+s = 'RUNOOB'
+repr(s)
+>>> "'RUNOOB'"
+dict = {'runoob': 'runoob.com', 'google': 'google.com'};
+repr(dict)
+>>> "{'google': 'google.com', 'runoob': 'runoob.com'}"
     ```
-    s = 'RUNOOB'
-    repr(s)
-    >>> "'RUNOOB'"
-    dict = {'runoob': 'runoob.com', 'google': 'google.com'};
-    repr(dict)
-    >>> "{'google': 'google.com', 'runoob': 'runoob.com'}"
-    ```
-    
+
