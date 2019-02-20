@@ -79,9 +79,9 @@ head_tag.string
 for string in soup.strings:
     print(repr(string))
 ```
-
-
-输出的字符串中可能包含了很多空格或空行,使用`.stripped_strings`可以去除多余空白内容.
+  
+  
+ 4. 输出的字符串中可能包含了很多空格或空行,使用`.stripped_strings`可以去除多余空白内容.
 
 **`find_all`查找文档中所有匹配标签**
  - 字符串
