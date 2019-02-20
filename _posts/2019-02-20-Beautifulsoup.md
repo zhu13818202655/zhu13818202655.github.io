@@ -71,7 +71,7 @@ for child in head_tag.descendants:
 ```
 
 ## **.string**
-
+ 
  1. 字符串常被包含在tag内.Beautiful Soup用 NavigableString 类来包装tag中的字符串
 如果tag只有一个 NavigableString 类型子节点,那么这个tag可以使用 `.string` 得到子节点
 
@@ -114,6 +114,15 @@ soup.find_all(["a", "b"])
  - True
 True 可以匹配任何值,下面代码查找到所有的tag,但是不会返回字符串节点
  - 可以自定义函数方法
+ 
+```
+下面方法校验了当前元素,如果包含 class 属性却不包含 id 属性,那么将返回 True:
+def has_class_but_no_id(tag):
+  return tag.has_attr('class') and not tag.has_attr('id')
+def has_class_but_no_id(tag):
+  return tag.has_attr('class') and not tag.has_attr('id')
+```
+
  - 使用多个指定名字的参数可以同时过滤tag的多个属性
  
 ```
@@ -227,6 +236,8 @@ u'I linked to|example.com'
 [text for text in soup.stripped_strings]
 # [u'I linked to', u'example.com']
 ```
+
+
 
 ## 补充：
 
