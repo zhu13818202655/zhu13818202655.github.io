@@ -13,7 +13,8 @@ catalog:    Python Crawler
 
 # Beautifulsoup Study
 
-标签（空格分隔）：根据 Beautiful Soup 4.2.0 文档 学习
+标签（空格分隔）：根据 Beautiful Soup 4.2.0 文档 学习:
+https://www.crummy.com/software/BeautifulSoup/bs4/doc.zh/#id4
 
 
 ---
@@ -40,10 +41,11 @@ soup.a
 `find_all()` 可以找到所有你要找到的tag标签
 
 soup.find_all('a')
+```
 # [<a class="sister" href="http://example.com/elsie" id="link1">Elsie</a>,
 #  <a class="sister" href="http://example.com/lacie" id="link2">Lacie</a>,
 #  <a class="sister" href="http://example.com/tillie" id="link3">Tillie</a>]
-
+```
 tag的 .contents 属性可以将tag的子节点以列表的方式输出，输出节点内容:
 ```
 head_tag = soup.head
