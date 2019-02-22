@@ -14,7 +14,7 @@ catalog:    python-crawler
 # Beautifulsoup Study
 
 标签（空格分隔）：Crowler Python
-根据[beautiful Soup 4.2.0 文档][1]学习
+根据[eautiful Soup 4.2.0 文档][1]学习
 ---
 
 使用BeautifulSoup
@@ -61,14 +61,14 @@ tag的 .contents 属性可以将tag的子节点以列表的方式输出，输出
     # [u'The Dormouse's story']
     ```
 
-**<title>标签也包含一个子节点:字符串 “The Dormouse’s story”,这种情况下字符串 “The Dormouse’s story”也属于<head>标签的子孙节点**
+<title>标签也包含一个子节点:字符串 “The Dormouse’s story”,这种情况下字符串 “The Dormouse’s story”也属于<head>标签的子孙节点
 
-    ```
-    for child in head_tag.descendants:
-        print(child)
-        # <title>The Dormouse's story</title>
-        # The Dormouse's story
-    ```
+```
+for child in head_tag.descendants:
+    print(child)
+    # <title>The Dormouse's story</title>
+    # The Dormouse's story
+```
 
 ## **.string**
  
