@@ -11,12 +11,6 @@ catalog:    python
 
 
 
-# Python 文档处理
-
-标签（空格分隔）： Python
-
----
-
 ## **OS 模块**
 
 1. os.path.exists(path)
