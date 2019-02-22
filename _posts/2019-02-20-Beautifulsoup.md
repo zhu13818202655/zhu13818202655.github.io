@@ -14,7 +14,7 @@ catalog:    python-crawler
 # Beautifulsoup Study
 
 标签（空格分隔）：Crowler Python
-根据[eautiful Soup 4.2.0 文档][1]学习
+根据[beautiful Soup 4.2.0 文档][1]学习
 ---
 
 使用BeautifulSoup
