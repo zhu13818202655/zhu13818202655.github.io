@@ -27,8 +27,8 @@ catalog:    python
 topdown = True:从上到下遍历树来生成目录树中的文件名
 topdown = Fals:从下到上遍历树来生成目录树中的文件名
 
-下面示例显示起始目录下每个目录中的非目录文件占用的字节数，但它不在任何CVS子目录下查看
-
+    下面示例显示起始目录下每个目录中的非目录文件占用的字节数，但它不在任何CVS子目录下查看
+    
     ```
     import os
     from os.path import join, getsize
@@ -39,6 +39,7 @@ topdown = Fals:从下到上遍历树来生成目录树中的文件名
         if 'CVS' in dirs:
             dirs.remove('CVS')  # don't visit CVS directories
     ```
+
 3. os.scandir（path ='.' ）
 返回os.DirEntry与path给出的目录中的条目对应的对象的迭代器。这些条目产生以任意顺序，特殊项目'.'和'..'不包括在内。
 下面三个方法返回值都是bool类型
@@ -55,7 +56,7 @@ topdown = Fals:从下到上遍历树来生成目录树中的文件名
 7. os.remove(file)   #进行移除文件
 8. os.rmdir(dir)     #进行移除目录
 9. 使用python  pathlib模块 
-**统计某一文件夹下文件数量** 
+    **统计某一文件夹下文件数量** 
 
     ```
     from pathlib import Path
