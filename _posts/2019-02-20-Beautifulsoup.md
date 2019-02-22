@@ -45,55 +45,56 @@ soup.find_all('a')
 #  <a class="sister" href="http://example.com/lacie" id="link2">Lacie</a>,
 #  <a class="sister" href="http://example.com/tillie" id="link3">Tillie</a>]
 ```
-tag的 .contents 属性可以将tag的子节点以列表的方式输出，输出节点内容:
-```
-head_tag = soup.head
-head_tag
-# <head><title>The Dormouse's story</title></head>
+tag的 .contents 属性可以将tag的子节点以列表的方式输出，输出节点内容
 
-head_tag.contents
-[<title>The Dormouse's story</title>]
-
-title_tag = head_tag.contents[0]
-title_tag
-# <title>The Dormouse's story</title>
-title_tag.contents
-# [u'The Dormouse's story']
-```
+    ```
+    head_tag = soup.head
+    head_tag
+    # <head><title>The Dormouse's story</title></head>
+    head_tag.contents
+    [<title>The Dormouse's story</title>]
+    
+    title_tag = head_tag.contents[0]
+    title_tag
+    # <title>The Dormouse's story</title>
+    title_tag.contents
+    # [u'The Dormouse's story']
+    ```
 
 **<title>标签也包含一个子节点:字符串 “The Dormouse’s story”,这种情况下字符串 “The Dormouse’s story”也属于<head>标签的子孙节点**
 
-```
-for child in head_tag.descendants:
-    print(child)
-    # <title>The Dormouse's story</title>
-    # The Dormouse's story
-```
+    ```
+    for child in head_tag.descendants:
+        print(child)
+        # <title>The Dormouse's story</title>
+        # The Dormouse's story
+    ```
 
 ## **.string**
  
-字符串常被包含在tag内.Beautiful Soup用 NavigableString 类来包装tag中的字符串
+1. 字符串常被包含在tag内.Beautiful Soup用 NavigableString 类来包装tag中的字符串
 如果tag只有一个 NavigableString 类型子节点,那么这个tag可以使用 `.string` 得到子节点
 
-```
-title_tag.string
-# u'The Dormouse's story'
-```
+    ```
+    title_tag.string
+    # u'The Dormouse's story'
+    ```
 
-如果一个tag仅有一个子节点,那么这个tag也可以使用 .string 方法,输出结果与当前唯一子节点的 `.string` 结果相同
+2. 如果一个tag仅有一个子节点,那么这个tag也可以使用 .string 方法,输出结果与当前唯一子节点的 `.string` 结果相同
  
-```
-head_tag.contents
-# [<title>The Dormouse's story</title>]
-head_tag.string
-# u'The Dormouse's story'
-```
-如果tag包含了多个子节点,tag就无法确定 .string 方法应该调用哪个子节点的内容, .string 的输出结果是 None,此时可以使用`.strings`来循环获取
-```
-for string in soup.strings:
-    print(repr(string))
-```
-输出的字符串中可能包含了很多空格或空行,使用`.stripped_strings`可以去除多余空白内容.
+    ```
+    head_tag.contents
+    # [<title>The Dormouse's story</title>]
+    head_tag.string
+    # u'The Dormouse's story'
+    ```
+3. 如果tag包含了多个子节点,tag就无法确定 .string 方法应该调用哪个子节点的内容, .string 的输出结果是 None,此时可以使用`.strings`来循环获取
+    ```
+    for string in soup.strings:
+        print(repr(string))
+    ```
+    
+4. 输出的字符串中可能包含了很多空格或空行,使用`.stripped_strings`可以去除多余空白内容.
 
 **`find_all`查找文档中所有匹配标签**
 
