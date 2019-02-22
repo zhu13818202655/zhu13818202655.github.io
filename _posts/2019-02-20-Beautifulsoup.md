@@ -61,7 +61,7 @@ tag的 .contents 属性可以将tag的子节点以列表的方式输出，输出
     # [u'The Dormouse's story']
     ```
 
-<title>标签也包含一个子节点:字符串 “The Dormouse’s story”,这种情况下字符串 “The Dormouse’s story”也属于<head>标签的子孙节点
+**title标签也包含一个子节点:字符串 “The Dormouse’s story”,这种情况下字符串 “The Dormouse’s story”也属于<head>标签的子孙节点**
 
 ```
 for child in head_tag.descendants:
