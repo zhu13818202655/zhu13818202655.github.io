@@ -11,7 +11,7 @@ catalog:  Memory
 
 
 
-# 三姐婚礼
+# 姐姐婚礼
 
 <iframe frameborder="no" border="0" marginwidth="0" 
 marginheight="0" width="600" height="330" src="http://music.
@@ -28,10 +28,5 @@ type=0&id=541687281&auto=1&height=430"></iframe>
 
 ![我们一家2](https://github.com/zhu13818202655/zhu13818202655.github.io/raw/master/img/photo4.jpg)
 
-##纪念视频
-
-
-<video id="video" controls="" preload="none" poster="https://github.com/zhu13818202655/zhu13818202655.github.io/raw/master/img/photo4.jpg">
-<source id="mp4" src="http://t.cn/EVXDZxf?m=4340782834386799&u=5426271571" type="video/mp4"> </video>
 
  
