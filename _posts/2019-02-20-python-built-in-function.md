@@ -3,7 +3,7 @@ layout:     post
 title:      内置函数Python
 date:       2019-2-20
 author:     Louis
-catalog:    Python
+categories: Python
 
 ---
 <!-- MarkdownTOC -->

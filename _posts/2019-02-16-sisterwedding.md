@@ -3,7 +3,7 @@ layout:     post
 title:      sister wedding
 date:       2019-2-16
 author:     Louis
-catalog:  Memory
+categories: Memory
 
 ---
 <!-- MarkdownTOC -->

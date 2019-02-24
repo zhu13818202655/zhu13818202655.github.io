@@ -2,7 +2,7 @@
 layout: post
 title:  "Welcome to Jekyll!"
 date:   2019-02-09 12:25:20 +0800
-categories: jekyll update
+categories: Jekyll 
 ---
 
 <!-- MarkdownTOC -->

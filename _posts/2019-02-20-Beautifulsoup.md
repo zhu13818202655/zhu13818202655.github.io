@@ -3,7 +3,7 @@ layout:     post
 title:      Beautifulsoup Study
 date:       2019-2-20
 author:     Louis
-catalog:    python-crawler
+categories: Python Crawler
 
 ---
 <!-- MarkdownTOC -->
