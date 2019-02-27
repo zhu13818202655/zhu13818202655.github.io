@@ -12,15 +12,15 @@ categories: Python Algorithm
 
 ## 题目
 
-![罗马数字转换阿拉伯数字]{C:\图片\screencapture-leetcode-cn-problems-roman-to-integer-2019-02-27-14_34_34.png}
+![罗马数字转换阿拉伯数字](C:\图片\screencapture-leetcode-cn-problems-roman-to-integer-2019-02-27-14_34_34.png)
 
 ## 思路
 
 主要是数据的存储和相邻之间加减的处理。
 1. 数组存储取出,字典存储罗马数字代表的阿拉伯数字
 2. 前后罗马数字比较，进行加减处理
-* 用pre 和 cur 分别记住当前数字和前一个数字，以便进行比较
-* 用数组的[i]和[i-1]
+    * 用pre 和 cur 分别记住当前数字和前一个数字，以便进行比较
+    * 用数组的[i]和[i-1]
 
 ## 代码
 
