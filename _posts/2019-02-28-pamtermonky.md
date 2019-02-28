@@ -17,23 +17,17 @@ categories: software interesting
 ## 将YouTube视频下载成MP4
 两个网站：
 
-- [将YouTube视频地址放入转换MP4][1]
 
-- [将YouTube视频地址放入转换MP4][2]
+[将YouTube视频地址放入转换MP4-1](https://www.youtubeto.com/zh/)
+
+[将YouTube视频地址放入转换MP4-2](http://youtube.online-downloader.com/-Chinese)
 
 
 ## 更多方法
 
-[参考][3]
+[参考](https://coderschool.cn/2156.html)
 
 
-
-    
-    [1]:https://www.youtubeto.com/zh/
-    
-    [2]:http://youtube.online-downloader.com/-Chinese
-    
-    [3]:https://coderschool.cn/2156.html
 
 
 
