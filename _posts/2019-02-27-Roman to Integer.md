@@ -12,7 +12,7 @@ categories: Python Algorithm
 
 ## 题目
 
-![罗马数字转换阿拉伯数字](https://github.com/zhu13818202655/zhu13818202655.github.io/blob/master/img/screencapture-leetcode-cn-problems-roman-to-integer-2019-02-27-14_34_34.png)
+![罗马数字转换阿拉伯数字](https://github.com/zhu13818202655/zhu13818202655.github.io/raw/master/img/screencapture-leetcode-cn-problems-roman-to-integer-2019-02-27-14_34_34.png)
 
 ## 思路
 
