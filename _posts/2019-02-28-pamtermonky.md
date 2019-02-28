@@ -25,7 +25,7 @@ categories: software interesting
 
 ## 更多方法
 
-[参考](https://coderschool.cn/2156.html)
+[点此参考](https://coderschool.cn/2156.html)
 
 
 
