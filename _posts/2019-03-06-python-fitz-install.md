@@ -1,8 +1,8 @@
 ---
 layout: post
 title:  fitz包 install
-date:   2019-02-09 12:25:20 +0800
-categories: Jekyll 
+date:   2019-03-06
+categories: Python  
 ---
 
 <!-- MarkdownTOC -->
