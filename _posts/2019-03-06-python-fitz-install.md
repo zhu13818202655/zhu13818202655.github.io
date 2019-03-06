@@ -35,13 +35,12 @@ Microsoft Visual C++ Build Tools下载/解决Visual C++ 14.0 is required问题�
 **成功！！！**
 
 ## 在虚拟环境中安装包cmd方法
-
-    ```
+    
     cd C:\myworkspace\zhu13818202655.github.io\venv\Scripts#要进入Scripts文件夹中
     activate.bat #激活虚拟环境,(虚拟环境激活后，前面会有环境名称）
     python -m pip install *********  #必须要有python -m
     deactivate.bat    #退出virtualenv
-    ```
+    
     
     
     
