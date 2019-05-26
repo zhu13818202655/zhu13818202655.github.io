@@ -26,7 +26,7 @@ categories: PS
 2. 将西装图直接拖入至场景中
 3. 需要这两者合并，合并可见图像，才可后续操作，否则后面的抠图也是两者分离的
 
-<img src="http://ww1.sinaimg.cn/large/005Ve57dly1g3f2blutj5j30ej0o4jul.jpg" width="50%" height="50%">
+    <img src="http://ww1.sinaimg.cn/large/005Ve57dly1g3f2blutj5j30ej0o4jul.jpg" width="50%" height="50%">
 
 4. 用钢笔工具对西服进行抠选，当闭合选取时按住CTRL+ENTER键，当图中出现蚂蚁线时CTRL+J,此时会自动将选中的变成一个新的图层
 5. 然后CTRL+Tt调整大小，直到和脖子契合即可
