@@ -16,8 +16,9 @@ categories: PS
 
 
 在网上找了一张西服图
+<div align=center><img src="http://ww1.sinaimg.cn/large/005Ve57dly1g3f1tkx7ydj30f50c042g.jpg" width="50%" height="50%"></div>
 
-![西服](http://ww1.sinaimg.cn/large/005Ve57dly1g3f1tkx7ydj30f50c042g.jpg)
+
 
 于是通过拼接，开始制作。
 步骤
