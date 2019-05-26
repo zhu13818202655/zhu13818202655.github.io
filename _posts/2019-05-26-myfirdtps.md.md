@@ -9,10 +9,12 @@ categories: PS
 
 
 
-#  PS抠图--1st
 
 职业生涯规划需要制作简历，其中照片需要是身着西服，所以想着通过PS制作一张。
 以下是原图![原图](http://ww1.sinaimg.cn/large/005Ve57dly1g3f1sjhfi3j31031emn71.jpg)
+<img src="http://ww1.sinaimg.cn/large/005Ve57dly1g3f1sjhfi3j31031emn71.jpg" width = "190" height = "330" div align=center />
+
+
 在网上找了一张西服图
 
 ![西服](http://ww1.sinaimg.cn/large/005Ve57dly1g3f1tkx7ydj30f50c042g.jpg)
