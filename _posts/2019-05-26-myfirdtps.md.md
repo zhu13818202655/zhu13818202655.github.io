@@ -28,11 +28,12 @@ categories: PS
 
 <div align=center><img src="http://ww1.sinaimg.cn/large/005Ve57dly1g3f2blutj5j30ej0o4jul.jpg" width="50%" height="50%"></div>
 
-
 4. 用钢笔工具对西服进行抠选，当闭合选取时按住CTRL+ENTER键，当图中出现蚂蚁线时CTRL+J,此时会自动将选中的变成一个新的图层
 5. 然后CTRL+Tt调整大小，直到和脖子契合即可
 6. 类似步骤3，扣除你需要的西装+头像，当闭合选取时按住CTRL+ENTER键，当图中出现蚂蚁线时在菜单栏中->选择->反选，CTRL+J，使人物与背景分离，此时会自动将选中的变成一个新的图层
 7. 点开背景图层，在前景色中用颜色识别器选中你需要的背景色，将背景与新图层合并，保存成功。
 
 ## 成果：
-![身着西装](http://ww1.sinaimg.cn/large/005Ve57dly1g3f2d415ofj31031em1kx.jpg)
+
+<div align=center><img src="http://ww1.sinaimg.cn/large/005Ve57dly1g3f2d415ofj31031em1kx.jpg" width="50%" height="50%"></div>
+
