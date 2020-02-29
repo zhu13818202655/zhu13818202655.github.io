@@ -1,0 +1,14 @@
+---
+layout: post
+title:  study
+date:   2020-02-01
+categories: STUDY 
+---
+
+<!-- MarkdownTOC -->
+
+
+
+
+#算法
+## 约瑟夫环问题
