@@ -25,15 +25,15 @@ zip([iterable, ...])
  
 ```
 
-a = [1,2,3]
-b = [4,5,6]
-c = [4,5,6,7,8]
-zipped = zip(a,b)     # 打包为元组的列表
->>> [(1, 4), (2, 5), (3, 6)]
-zip(a,c)              # 元素个数与最短的列表一致
->>> [(1, 4), (2, 5), (3, 6)]
-zip(*zipped)          # 与 zip 相反，*zipped 可理解为解压，返回二维矩阵式
->>> [(1, 2, 3), (4, 5, 6)]
+    a = [1,2,3]
+    b = [4,5,6]
+    c = [4,5,6,7,8]
+    zipped = zip(a,b)     # 打包为元组的列表
+    >>> [(1, 4), (2, 5), (3, 6)]
+    zip(a,c)              # 元素个数与最短的列表一致
+    >>> [(1, 4), (2, 5), (3, 6)]
+    zip(*zipped)          # 与 zip 相反，*zipped 可理解为解压，返回二维矩阵式
+    >>> [(1, 2, 3), (4, 5, 6)]
 
 ```
 
@@ -51,10 +51,10 @@ enumerate(sequence, [start=0])
  
 ```
 
-seasons = ['Spring', 'Summer', 'Fall', 'Winter']
- list(enumerate(seasons))
->>>[(0, 'Spring'), (1, 'Summer'), (2, 'Fall'), (3, 'Winter')]
-list(enumerate(seasons, start=1))       # 下标从 1 开始
->>> [(1, 'Spring'), (2, 'Summer'), (3, 'Fall'), (4, 'Winter')]
+    seasons = ['Spring', 'Summer', 'Fall', 'Winter']
+     list(enumerate(seasons))
+    >>>[(0, 'Spring'), (1, 'Summer'), (2, 'Fall'), (3, 'Winter')]
+    list(enumerate(seasons, start=1))       # 下标从 1 开始
+    >>> [(1, 'Spring'), (2, 'Summer'), (3, 'Fall'), (4, 'Winter')]
 
 ```
