@@ -108,3 +108,6 @@ else:
 > list1.sort(reverse=True) #以首字母排序（默认升序）
 
 > list1.sort(key=lambda x:x[-1])
+
+
+4. 
