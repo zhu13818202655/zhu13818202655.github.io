@@ -38,6 +38,11 @@ except:
 
 2. 字典操作
 
+(1)对可迭代的tuple变字典
+
+> dict([(1,5),(2,9)])
+> {1: 5, 2: 9}
+
 > dict3 = dist{"name": "Tom", "job": "waiter"}
 
 增加键值对：
@@ -110,4 +115,37 @@ else:
 > list1.sort(key=lambda x:x[-1])
 
 
-4. 
+4. json file
+
+5. 阿拉伯数字转换成中文大写
+
+```python
+def num_to_char(num):
+    """数字转中文"""
+    num=str(num)
+    new_str=""
+    num_dict={"0":u"零","1":u"一","2":u"二","3":u"三","4":u"四","5":u"五","6":u"六","7":u"七","8":u"八","9":u"九"}
+    listnum=list(num)
+    shu=[]
+    for i in listnum:
+        shu.append(num_dict[i])
+    new_str="".join(shu)#list->str
+    return new_str
+ 
+```
+
+6. zip函数
+
+zip() 函数用于将可迭代的对象作为参数，将对象中对应的元素打包成一个个元组，然后返回由这些元组组成的列表。
+zip([iterable, ...])
+```python
+a = [1,2,3]
+b = [4,5,6]
+c = [4,5,6,7,8]
+zipped = zip(a,b)     # 打包为元组的列表
+[(1, 4), (2, 5), (3, 6)]
+zip(a,c)              # 元素个数与最短的列表一致
+[(1, 4), (2, 5), (3, 6)]
+zip(*zipped)          # 与 zip 相反，*zipped 可理解为解压，返回二维矩阵式
+[(1, 2, 3), (4, 5, 6)]
+```
