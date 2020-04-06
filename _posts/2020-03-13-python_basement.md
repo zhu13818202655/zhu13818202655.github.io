@@ -10,7 +10,7 @@ categories: Python
 
 
 
-1. 输入输出
+## 输入输出
 
 ```python
 import sys
@@ -30,13 +30,112 @@ except:
 ```
 ![测试](https://s1.ax1x.com/2020/03/13/8nIYTI.png)
 
+## 格式化输出
+```python
+#使用'{}'占位符
+print('I\'m {},{}'.format('hello','Welcome to my space!'))
+```
+> I'm hello,Welcome to my space!
+```
+#也可以使用'{0}','{1}'形式的占位符
+print('{0},I\'m {1},my E-mail is {2}'.format('Hello','spach','spach@163.com'))
+#可以改变占位符的位置
+print('{1},I\'m {0},my E-mail is {2}'.format('spach','Hello','spach@163.com'))
+``` 
+> Hello,I'm spach,my E-mail is spach@163.com
+> Hello,I'm spach,my E-mail is spach@163.com
+
+> print('#' * 40)
+> ########################################
+
+```python
+#使用'{name}'形式的占位符
+print('Hi,{name},{message}'.format(name = 'Tom',message = 'How old are you?'))
+```
+> Hi,Tom,How old are you?
+ 
+```python
+#混合使用'{0}','{name}'形式
+print('{0},I\'m {1},{message}'.format('Hello','spach',message = 'This is a test message!'))
+``` 
+> Hello,I'm spach,This is a test message!
+
+###下面进行格式控制
+
+```python
+import math
+print('The value of PI is approximately {}.'.format(math.pi))
+print('The value of PI is approximately {!r}.'.format(math.pi))
+print('The value of PI is approximately {0:.3f}.'.format(math.pi))
+```
+> The value of PI is approximately 3.141592653589793.
+
+> The value of PI is approximately 3.141592653589793.
+
+> The value of PI is approximately 3.142.
+
+这里的!r和%r类似，但是!r只用于format形式输出
+
+> b = 'hello, %r' % 123#可以
+
+> b = 'hello, !r' % 123 #会报错
+
+
+
+```python
+table = {'Sjoerd': 4127, 'Jack': 4098, 'Dcab': 7678}
+for name, phone in table.items():
+    print('{0:10} ==> {1:10d}'.format(name, phone))
+``` 
+Sjoerd     ==>       4127
+
+Jack       ==>       4098
+
+Dcab       ==>       7678
+ 
+```python
+print("{:.2f}".format(3.1415926)) #3.14,保留小数点后两位
+print("{:+.2f}".format(3.1415926)) #+3.14 带符号保留小数点后两位
+print("{:+.2f}".format(-10)) #-10.00 带符号保留小数点后两位
+print("{:+.0f}".format(-10.00)) #-10  不带小数
+print("{:0>2d}".format(1))  #01 数字补零 (填充左边, 宽度为2)
+print("{:x<2d}".format(1)) #1x 数字补x (填充右边, 宽度为4)
+print("{:x<4d}".format(10))  #10xx 数字补x (填充右边, 宽度为4)
+print("{:,}".format(1000000)) #1,000,000 以逗号分隔的数字格式
+print("{:.2%}".format(0.12))  #12.00% 百分比格式
+print("{:.2e}".format(1000000))  #1.00e+06 指数记法
+print("{:<10d}".format(10))  #10 左对齐 (宽度为10)
+print("{:>10d}".format(10))  #        10 右对齐 (默认, 宽度为10)
+print("{:^10d}".format(10))  #    10 中间对齐 (宽度为10)
+```
+
+字典输出：
+```python
+table = {'Sjoerd': 4127, 'Jack': 4098, 'Dcab': 8637678}
+print('Jack: {0[Jack]:d}; Sjoerd: {0[Sjoerd]:d}; ''Dcab: {0[Dcab]:d}'.format(table))
+```
+> Jack: 4098; Sjoerd: 4127; Dcab: 8637678
+
+
+```python
+tplt = "{0:^10}\t{1:{3}^10}\t{2:^10}"   # {1:{3}^10} 1表示位置，{3}表示用第3个参数来填充，^表示居中，10表示占10个位置
+print(tplt.format("排名","学校名称","总分",'*'))
+```
+```python
+args = ['zdd', ',']
+kwargs = {'obj': 'world', 'name': 'python'}
+print('hello {obj} {} i am {name}'.format(*args, **kwargs))
+```
+> out: hello world zdd i am python
+
+
 两种输入形式：
 
 (1) sys.stdin.readline() 标准读入输入的一行，包含"\n"
 
 (2) input.readline() 标准读入输入的一行，不包含"\n"
 
-2. 字典操作
+## 字典操作
 
 (1)对可迭代的tuple变字典
 
@@ -104,7 +203,7 @@ else:
 > 注意set和[]区别，上下需要同步.或者可以使用dist.get(file).append(value),但这个需要在初始化时将file的value转化为list
 如：dist[file] = [value]
 
-3. list之排序
+## list之排序
 
 > list1 = [as, ds, ew, gw, qi, cv, nf, re]
 
@@ -115,9 +214,9 @@ else:
 > list1.sort(key=lambda x:x[-1])
 
 
-4. json file
+## json file
 
-5. 阿拉伯数字转换成中文大写
+## 阿拉伯数字转换成中文大写
 
 ```python
 def num_to_char(num):
@@ -134,7 +233,7 @@ def num_to_char(num):
  
 ```
 
-6. zip函数
+## zip函数
 
 zip() 函数用于将可迭代的对象作为参数，将对象中对应的元素打包成一个个元组，然后返回由这些元组组成的列表。
 zip([iterable, ...])

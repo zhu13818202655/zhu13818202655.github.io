@@ -13,7 +13,8 @@ categories: Python
 ## python 高阶
 
 ### 条件表达式：
-> if x>0 else float("nan")
+> y = 33 if x>0 else 55
+> return men if gender else women
 
 ### 列表推导式
 
@@ -21,17 +22,19 @@ categories: Python
 
 ### map()函数
 
-（1）map(函数名，sequence)
+ (1) map(函数名，sequence)
 
-（2）可用于数据清洗
+ (2) 可用于数据清洗
 
+ (3) map func类型，可以用list(map())转换
 ### 匿名函数 lamba
 
-（1）简单的函数操作
+> lambda arguments: expression
 
-（2）返回值是func类型
-
-（3）可结合map()完成数据清洗
+* This function can have any number of arguments but only one expression, which is evaluated and returned.
+* One is free to use lambda functions wherever function objects are required.
+* You need to keep in your knowledge that lambda functions are syntactically restricted to a single expression.
+* It has various uses in particular fields of programming besides other types of expressions in functions.
 
 
 > list_a = [lambda a: a**3, lambda b: b**3]
@@ -121,5 +124,31 @@ def main2():
 
 ```
 
-#### 
+### yield 生成器
+
+生成器表达式的标准方式是以圆括号的形式，括号内可以是一个列表推导式。
+> generator_expression ::= "(" expression comp_for ")"
+
+生成器表达式生语法和列表推导式相同，列表推导式是以大括号的形式存在。列表推导式是直接创建一个列表，但是由于受到内存的限制，列表的容量有上限，而生成器则不需要一下子创建完整的列表，而是一边循环一边计算。
+生成器表达式生成了一个生成器对象，但其中的变量是以延迟方式获取，直到调用生成器的__next__()方法
+
+```python
+ge = (2 * i for i in range(3))
+print(next(ge))  # 输出：0
+print(next(ge))  # 2
+print(next(ge))  # 4
+print(next(ge))  # StopIteration
+
+```
+### Python中常用内建方法
+
+1. __repr__如果用IDE软件操作，功能与__str__完全一样，都是实例可视化显示
+2. 开发中如果用户需要可视化实例内容，只需要重写__str__或者__repr__方法之一即可。如果两个都有的话，默认调用__str__.
+3. 两者的区别就是使用命令行操作：
+ 3.1 __str__重写后，如果直接实例stu回车的话话，显示的是stu实例在内存中的地址，跟print(stu)不一样。
+ 3.2 __repr__重写后，如果直接实例stu回车的话，效果跟使用print(stu)一样，返回内容，不是内存地址。 
+ 
+ 
+ ### 
+
 
